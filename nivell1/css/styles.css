@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
+* {
+    padding: 0px;
+    box-sizing: border-box;
+    
+  }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color:#c5c5dc;
+    display: flex;
+    flex-flow:column nowrap;
+    
+}
+
+button{
+    margin: 3px;
+}
+
+
+
+/* CARRUSEL DE IMÁGENES */
+
+.carouselIndicators{
+    margin: 10px;
+    width: auto;
+    height: 500px;
+}
+
+
+.carousel-inner{
+    width: auto;
+    height: 500px;
+    margin:10px;
+ }
+
+.carousel-item {
+    background-size: cover;
+}
+
+  /* ARTICULOS */
+ 
+  .article-1{
+    padding: 10px;
+    flex: 1 1 45%;
+    
+  }
+
+  .article-2{
+    padding: 10px;
+    flex: 1 1 45%;
+}
+
+
+.borde-cuerpo-articles{
+    width: 1020px;
+    overflow: auto;
+    margin: 10px;
+    background-color: rgb(201, 162, 162);
+}
+ 
+  
+ /* SIDE */
+
+ .aside-1 {
+    flex:1 1 auto;
+    margin: 5px 5px 10px 10px;
+    
+    display: block;
+ }
+
+ .aside-2 {
+    flex:1 1 auto;
+    margin: 5px 5px 10px 10px;
+    display: block;
+ }
+
+ .aside-3 {
+    flex:1 1 auto;
+    margin: 5px 5px 10px 10px;
+    position: relative;
+ }
+
+
+
+  /* PIE */
+.pie{
+    width: auto;
+    clear: both;
+    position: relative;
+    margin-top: 700px;
+}
+
+
+
+
+/* MEDIA QUERIES */
+@media (max-width: 992px){
+
+   
+}
+
+
+/* TABLET */
+/*
+@media (max-width: 768px){
+    .nav {
+        /* (80px - line-height of 27px) / 2 = 26.5px
+        padding-top: 26.5px;
+        padding-bottom: 26.5px;
+        line-height: 27px;
+      }
+
+      #sider{
+       width: 100%;
+       }
+
+       .carousel-inner > img{
+        height:500px;
+        width: 500px;
+       }
+
+       .borde-cuerpo{
+        width: 1020px;
+        overflow: auto;
+        margin: 10px;
+        background-color: rgb(201, 162, 162);
+    }
+    
+}
+ */
+
+
+
+/* MOBILE */
+/*
+@media (max-width: 576px){
+  
+   #sider{
+    width: 22.3rem;
+   }
+
+   .carousel-inner > img{
+    height:500px;
+    width: 500px;
+   }
+
+.card {
+    
+    width: 21.5rem;
+}
+
+.borde-cuerpo {
+    width: 365px;
+    overflow: auto;
+    margin: 10px;
+    background-color: rgb(201, 162, 162);
+}
+
+.card-img, .card-img-bottom, .card-img-top {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 100%;
+
+}
+
+}
+*/
